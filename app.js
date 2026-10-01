@@ -563,7 +563,7 @@
         const subjectInput = document.getElementById('quote-form-subject');
         if (subjectInput) subjectInput.value = `New Luxnarr Quote Request: ${brandVal} (${trackingId})`;
 
-        // Dispatch inquiry to luxnarr.ai@gmail.com via FormSubmit AJAX
+        // Dispatch inquiry to info@luxnarr.com via FormSubmit AJAX
         try {
           const payload = {
             Brand: brandVal,
@@ -576,7 +576,7 @@
             _captcha: 'false'
           };
 
-          fetch('https://formsubmit.co/ajax/luxnarr.ai@gmail.com', {
+          fetch('https://formsubmit.co/ajax/info@luxnarr.com', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
