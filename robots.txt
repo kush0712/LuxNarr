@@ -1,4 +1,4 @@
-# https://luxnarr.com/robots.txt
+# https://www.luxnarr.com/robots.txt
 User-agent: *
 Allow: /
 
@@ -19,4 +19,4 @@ User-agent: ClaudeBot
 Allow: /
 
 # XML Sitemap
-Sitemap: https://luxnarr.com/sitemap.xml
+Sitemap: https://www.luxnarr.com/sitemap.xml
