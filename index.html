@@ -8,7 +8,9 @@
 
   <!-- Canonical & Robots -->
   <link rel="canonical" href="https://luxnarr.com/">
-  <meta name="robots" content="index, follow">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="LuxNarr">
 
   <!-- Open Graph Meta Tags -->
   <meta property="og:site_name" content="LuxNarr">
@@ -24,6 +26,66 @@
   <meta name="twitter:title" content="LuxNarr.ai — Autonomous AI Engine Optimization (GEO/AEO) & Growth Platform">
   <meta name="twitter:description" content="We audit your current online and AI visibility, monitor your top competitors in real time, and elevate your presence so AI platforms recommend you first.">
   <meta name="twitter:image" content="https://luxnarr.com/assets/logo_clean.png">
+
+  <!-- Structured Data: Schema.org (JSON-LD) for Google Knowledge Graph & AI Engine Overviews (GEO/AEO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": ["Organization", "OnlineBusiness"],
+        "@id": "https://luxnarr.com/#organization",
+        "name": "LuxNarr",
+        "alternateName": ["LuxNarr.ai", "LuxNarr AI", "luxnarr.com"],
+        "url": "https://luxnarr.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://luxnarr.com/assets/logo_clean.png",
+          "caption": "LuxNarr"
+        },
+        "description": "LuxNarr is an Autonomous AI Engine Optimization (GEO/AEO) & Growth Platform that audits brand visibility across AI engines, tracks competitors 24/7, and engineers authority to secure top recommendation placements on ChatGPT, Gemini, Perplexity, and Google AI Overviews.",
+        "email": "luxnarr.ai@gmail.com",
+        "sameAs": [
+          "https://www.linkedin.com/company/luxnarr",
+          "https://github.com/kush0712/LuxNarr"
+        ],
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "email": "luxnarr.ai@gmail.com",
+            "contactType": "customer support"
+          }
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://luxnarr.com/#website",
+        "url": "https://luxnarr.com/",
+        "name": "LuxNarr.ai",
+        "alternateName": "LuxNarr",
+        "publisher": {
+          "@id": "https://luxnarr.com/#organization"
+        },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://luxnarr.com/#software",
+        "name": "LuxNarr AI Engine Optimization Platform",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web / Cloud",
+        "url": "https://luxnarr.com/",
+        "description": "Autonomous AI Engine Optimization and real-time competitor tracking software helping brands become the top-recommended solution across generative AI search platforms.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "description": "Custom Quote & Complimentary Visibility Audit"
+        }
+      }
+    ]
+  }
+  </script>
 
   <!-- Force black immediately to prevent white flash -->
   <style>

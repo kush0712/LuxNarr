@@ -1,0 +1,22 @@
+# https://luxnarr.com/robots.txt
+User-agent: *
+Allow: /
+
+# Directives for major AI crawlers & Googlebot
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+# XML Sitemap
+Sitemap: https://luxnarr.com/sitemap.xml
