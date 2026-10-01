@@ -1,0 +1,10 @@
+.vercel
+.env*
+node_modules/
+.DS_Store
+dist/
+legacy_static/
+mobile fail/
+*.log
+.vite/
+package-lock.json
