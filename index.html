@@ -144,6 +144,7 @@
       <!-- Center: Navigation Menu (Issues 9 & 18) -->
       <nav class="header-nav appear appear--soft" aria-label="Main Navigation" style="--d: 0.12s;">
         <button type="button" class="header-nav-link open-services-modal-btn">Services</button>
+        <a href="/blog/" class="header-nav-link">Blog &amp; Research</a>
         <a href="#how-it-works" class="header-nav-link">How We Work</a>
         <a href="#performance" class="header-nav-link">Performance</a>
         <a href="#testimonials" class="header-nav-link">Testimonials</a>
@@ -178,12 +179,16 @@
             When potential clients ask ChatGPT, Gemini, and Google for the best solution in your market, who gets recommended? LuxNarr.ai audits your current visibility, watches your top competitors in real time, and elevates your presence so AI platforms recommend your business first.
           </p>
 
-          <!-- Hero Action Button (Issue 20: distinct secondary button style) -->
+          <!-- Hero Action Buttons -->
           <div class="hero-actions appear appear--soft" style="--d: 0.85s;">
             <button type="button" class="btn btn-secondary btn-hero open-services-modal-btn">
               <span>View Our Services</span>
               <svg class="btn-arrow" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </button>
+            <a href="/blog/" class="btn btn-solid btn-hero">
+              <span>Explore AI Research &amp; Blogs</span>
+              <svg class="btn-arrow" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
           </div>
 
           <!-- Subtle Highlights -->
@@ -191,6 +196,75 @@
             <span class="highlight-item"><span class="highlight-dot"></span> In-Depth AI Visibility Audit</span>
             <span class="highlight-item"><span class="highlight-dot"></span> 24/7 Competitor Tracking</span>
             <span class="highlight-item"><span class="highlight-dot"></span> Guaranteed Top Mentions</span>
+          </div>
+
+          <!-- HERO BLOG SPOTLIGHT DECK (Opens as full standalone pages, not popup) -->
+          <div class="hero-blog-deck appear appear--soft" style="--d: 1.15s;">
+            <div class="hero-blog-header">
+              <div class="hero-blog-tag">
+                <span class="highlight-dot"></span> Latest AI Search Research &amp; Articles
+              </div>
+              <a href="/blog/" class="hero-blog-view-all">
+                <span>View Master Content Library (18 Blueprints)</span>
+                <svg class="btn-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+
+            <div class="hero-blog-grid">
+              <!-- Blog 1 -->
+              <a href="/blog/what-is-generative-engine-optimization/" class="hero-blog-card">
+                <div>
+                  <div class="hero-blog-badge-row">
+                    <span class="hero-blog-badge">Foundations • Pillar</span>
+                    <span class="hero-blog-time">8 MIN READ</span>
+                  </div>
+                  <h3 class="hero-blog-title">What Is Generative Engine Optimization (GEO)?</h3>
+                  <p class="hero-blog-desc">
+                    How AI search synthesis works across LLMs, vector embedding mechanics, and how to get your brand cited.
+                  </p>
+                </div>
+                <div class="hero-blog-footer">
+                  <span>Article 01</span>
+                  <span style="display:inline-flex; align-items:center; gap:4px;">Read Guide <svg class="btn-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+                </div>
+              </a>
+
+              <!-- Blog 2 -->
+              <a href="/blog/what-is-answer-engine-optimization/" class="hero-blog-card">
+                <div>
+                  <div class="hero-blog-badge-row">
+                    <span class="hero-blog-badge">Foundations</span>
+                    <span class="hero-blog-time">6 MIN READ</span>
+                  </div>
+                  <h3 class="hero-blog-title">What Is Answer Engine Optimization (AEO)?</h3>
+                  <p class="hero-blog-desc">
+                    The 3-step content architecture to capture featured snippets, voice search, and atomic zero-click answers.
+                  </p>
+                </div>
+                <div class="hero-blog-footer">
+                  <span>Article 02</span>
+                  <span style="display:inline-flex; align-items:center; gap:4px;">Read Guide <svg class="btn-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+                </div>
+              </a>
+
+              <!-- Blog 3 -->
+              <a href="/blog/geo-vs-aeo-vs-seo/" class="hero-blog-card">
+                <div>
+                  <div class="hero-blog-badge-row">
+                    <span class="hero-blog-badge">Comparisons • Pillar</span>
+                    <span class="hero-blog-time">9 MIN READ</span>
+                  </div>
+                  <h3 class="hero-blog-title">GEO vs AEO vs SEO: The Unified Model</h3>
+                  <p class="hero-blog-desc">
+                    The comparative matrix across goals, outputs, and metrics—and how they operate as a unified 3-layer stack.
+                  </p>
+                </div>
+                <div class="hero-blog-footer">
+                  <span>Article 05</span>
+                  <span style="display:inline-flex; align-items:center; gap:4px;">Read Guide <svg class="btn-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -558,7 +632,7 @@
           </div>
 
           <div class="reveal-on-scroll reveal-soft stagger-2">
-            <div class="footer-col-title">Services</div>
+            <div class="footer-col-title">Services &amp; Content</div>
             <ul class="footer-links-list">
               <li>
                 <button type="button" class="open-services-modal-btn footer-action-btn">
@@ -566,16 +640,18 @@
                   <span class="footer-action-badge">Modal ↗</span>
                 </button>
               </li>
+              <li><a href="/blog/" class="footer-nav-link"><span>Blog &amp; Research Hub</span><span class="footer-link-arrow">→</span></a></li>
               <li><a href="#how-it-works" class="footer-nav-link"><span>How We Work</span><span class="footer-link-arrow">→</span></a></li>
             </ul>
           </div>
 
           <div class="reveal-on-scroll reveal-soft stagger-3">
-            <div class="footer-col-title">Proof</div>
+            <div class="footer-col-title">Proof &amp; Index</div>
             <ul class="footer-links-list">
               <li><a href="#performance" class="footer-nav-link"><span>Proven Performance</span><span class="footer-link-arrow">→</span></a></li>
               <li><a href="#testimonials" class="footer-nav-link"><span>Testimonials</span><span class="footer-link-arrow">→</span></a></li>
               <li><a href="#clients" class="footer-nav-link"><span>Featured Clients</span><span class="footer-link-arrow">→</span></a></li>
+              <li><a href="/llms.txt" class="footer-nav-link"><span>/llms.txt Machine Index</span><span class="footer-link-arrow">↗</span></a></li>
             </ul>
           </div>
 

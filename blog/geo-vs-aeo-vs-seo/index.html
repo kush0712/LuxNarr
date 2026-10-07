@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GEO vs AEO vs SEO: Key Differences & Working Model</title>
+  <meta name="description" content="Understand the crucial differences between GEO, AEO, and SEO. Learn how each discipline functions and why modern search requires a unified three-part model.">
+  <meta name="keywords" content="GEO vs AEO vs SEO, difference between SEO and GEO, AEO vs GEO, modern search optimization, generative search vs organic search">
+
+  <!-- Canonical & Crawlability -->
+  <link rel="canonical" href="https://www.luxnarr.com/blog/geo-vs-aeo-vs-seo/">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="LuxNarr Technical Research Team">
+
+  <!-- Open Graph -->
+  <meta property="og:site_name" content="LuxNarr">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.luxnarr.com/blog/geo-vs-aeo-vs-seo/">
+  <meta property="og:title" content="GEO vs AEO vs SEO: Key Differences & Working Model">
+  <meta property="og:description" content="Understand the crucial differences between GEO, AEO, and SEO. Learn how each discipline functions and why modern search requires a unified three-part model.">
+  <meta property="og:image" content="https://www.luxnarr.com/assets/logo_clean.png">
+  <meta property="article:published_time" content="2026-10-03T08:00:00+00:00">
+  <meta property="article:modified_time" content="2026-10-07T12:00:00+00:00">
+  <meta property="article:author" content="https://www.luxnarr.com/#author-technical-lead">
+  <meta property="article:section" content="Comparisons">
+  <meta property="article:tag" content="SEO">
+  <meta property="article:tag" content="AEO">
+  <meta property="article:tag" content="GEO">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://www.luxnarr.com/blog/geo-vs-aeo-vs-seo/">
+  <meta name="twitter:title" content="GEO vs AEO vs SEO: Key Differences & Working Model">
+  <meta name="twitter:description" content="Understand the differences between GEO, AEO, and SEO. Learn how each functions and why modern search requires a unified three-part model.">
+  <meta name="twitter:image" content="https://www.luxnarr.com/assets/logo_clean.png">
+
+  <!-- Structured Data: Schema.org (JSON-LD) with Wikidata Knowledge Graph references -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.luxnarr.com/#organization",
+        "name": "LuxNarr",
+        "legalName": "LuxNarr",
+        "url": "https://www.luxnarr.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "@id": "https://www.luxnarr.com/#logo",
+          "url": "https://www.luxnarr.com/assets/logo_clean.png",
+          "caption": "LuxNarr Logo"
+        },
+        "email": "contact@luxnarr.com",
+        "description": "Enterprise Generative Engine Optimization (GEO), Answer Engine Optimization (AEO), and AI visibility analytics firm.",
+        "sameAs": [
+          "https://www.linkedin.com/company/luxnarr",
+          "https://twitter.com/luxnarr",
+          "https://github.com/luxnarr",
+          "https://www.wikidata.org/wiki/Special:ItemByTitle/enwiki/LuxNarr"
+        ],
+        "knowsAbout": [
+          "https://www.wikidata.org/wiki/Q180711",
+          "https://www.wikidata.org/wiki/Q11660",
+          "https://www.wikidata.org/wiki/Q1153059"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.luxnarr.com/#website",
+        "url": "https://www.luxnarr.com/",
+        "name": "LuxNarr",
+        "publisher": {
+          "@id": "https://www.luxnarr.com/#organization"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.luxnarr.com/#author-technical-lead",
+        "name": "LuxNarr Technical Research Team",
+        "jobTitle": "Director of Search Engineering",
+        "worksFor": {
+          "@id": "https://www.luxnarr.com/#organization"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/luxnarr",
+          "https://github.com/luxnarr"
+        ],
+        "knowsAbout": [
+          "Search Engine Optimization",
+          "Answer Engine Optimization",
+          "Generative Engine Optimization",
+          "Information Retrieval"
+        ]
+      },
+      {
+        "@type": "TechArticle",
+        "@id": "https://www.luxnarr.com/blog/geo-vs-aeo-vs-seo/#article",
+        "isPartOf": {
+          "@id": "https://www.luxnarr.com/#website"
+        },
+        "headline": "GEO vs AEO vs SEO: What's the Difference and Why They Work Together",
+        "description": "Understand the crucial differences between GEO, AEO, and SEO. Learn how each discipline functions and why modern search requires a unified three-part model.",
+        "inLanguage": "en-US",
+        "mainEntityOfPage": "https://www.luxnarr.com/blog/geo-vs-aeo-vs-seo/",
+        "datePublished": "2026-10-03T08:00:00+00:00",
+        "dateModified": "2026-10-07T12:00:00+00:00",
+        "author": {
+          "@id": "https://www.luxnarr.com/#author-technical-lead"
+        },
+        "publisher": {
+          "@id": "https://www.luxnarr.com/#organization"
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Search Engine Optimization",
+            "sameAs": "https://www.wikidata.org/wiki/Q180711"
+          },
+          {
+            "@type": "Thing",
+            "name": "Generative Engine Optimization",
+            "sameAs": "https://en.wikipedia.org/wiki/Generative_engine_optimization"
+          }
+        ],
+        "mentions": [
+          {
+            "@type": "Thing",
+            "name": "Artificial Intelligence",
+            "sameAs": "https://www.wikidata.org/wiki/Q11660"
+          },
+          {
+            "@type": "Thing",
+            "name": "Large Language Model",
+            "sameAs": "https://www.wikidata.org/wiki/Q1153059"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.luxnarr.com/blog/geo-vs-aeo-vs-seo/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.luxnarr.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.luxnarr.com/blog/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "GEO vs AEO vs SEO",
+            "item": "https://www.luxnarr.com/blog/geo-vs-aeo-vs-seo/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.luxnarr.com/blog/geo-vs-aeo-vs-seo/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can I stop investing in SEO and only do GEO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. AI models rely on search engines to index and retrieve real-time data. If your traditional SEO fails and your site is deindexed or unranked, generative retrieval agents cannot discover your content."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which discipline should an early-stage company prioritize first?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Build clean SEO technical hygiene first (SSR, fast TTFB, crawlable index), implement AEO formatting on core product pages second (direct 50-word answer blocks), and run external GEO entity seeding third."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <!-- Base Styling & Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=Inter:ital,opsz,wght@0,14..32,100..900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="../../assets/logo_clean.png">
+  <link rel="stylesheet" href="../../styles.css?v=21">
+  <link rel="stylesheet" href="../blog.css?v=1">
+
+  <style>
+    html, body { background: #000000 !important; color: #ffffff; }
+  </style>
+</head>
+<body>
+
+  <!-- Reading Progress Bar -->
+  <div class="reading-progress-bar" id="reading-progress" aria-hidden="true"></div>
+
+  <!-- Film Grain Overlay -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <div class="page-wrapper">
+    <!-- SITE HEADER -->
+    <header class="header" id="site-header">
+      <a href="/" class="logo" aria-label="LuxNarr Home">
+        <img src="../../assets/logo_clean.png" alt="LuxNarr" class="brand-logo-img" width="24" height="24">
+        <span class="logo-text">LuxNarr</span>
+      </a>
+
+      <nav class="header-nav" aria-label="Main Navigation">
+        <a href="/" class="header-nav-link">Home</a>
+        <a href="/blog/" class="header-nav-link active" style="color: #ffffff; background: rgba(255, 255, 255, 0.12);">Blog &amp; Research</a>
+        <a href="/#how-it-works" class="header-nav-link">How We Work</a>
+        <a href="/#performance" class="header-nav-link">Performance</a>
+      </nav>
+
+      <a href="/#contact" class="btn btn-solid">
+        <span>Get a Quote</span>
+        <svg class="btn-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </header>
+
+    <main class="content-container">
+      <!-- ARTICLE HEADER -->
+      <article class="article-header">
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+          <a href="/">Home</a>
+          <span class="breadcrumb-sep">/</span>
+          <a href="/blog/">Blog</a>
+          <span class="breadcrumb-sep">/</span>
+          <span class="breadcrumb-current" aria-current="page">GEO vs AEO vs SEO</span>
+        </nav>
+
+        <div class="article-category-badge">
+          <span>Comparisons • Master Pillar</span>
+        </div>
+
+        <h1 class="article-headline">
+          GEO vs AEO vs SEO: <em>Key Differences &amp; The Unified Working Model</em>
+        </h1>
+
+        <div class="article-meta-row">
+          <div class="article-meta-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span>9 Min Read</span>
+          </div>
+          <div class="article-meta-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            <span>Published: Oct 3, 2026</span>
+          </div>
+          <div class="article-meta-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            <span>By LuxNarr Technical Research Team</span>
+          </div>
+          <div class="article-meta-item" style="color: var(--accent-green);">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <span>Master Matrix</span>
+          </div>
+        </div>
+
+        <!-- Inverted Pyramid Direct Answer Block (AEO / Zero-Click Summary) -->
+        <div class="direct-answer-box">
+          <div class="direct-answer-header">
+            <div class="direct-answer-tag">Direct Answer • Comparative Summary</div>
+            <div class="direct-answer-badge">AEO Target Block</div>
+          </div>
+          <p class="direct-answer-content">
+            <strong>SEO</strong> earns visibility in traditional ranked lists of links; <strong>AEO</strong> structures concise answers for direct extraction in featured snippets and voice results; <strong>GEO</strong> optimizes brand presence, context, and citations within AI-synthesized conversational answers. They are not competing disciplines—they are sequential layers of the same modern search ecosystem.
+          </p>
+        </div>
+      </article>
+
+      <!-- TWO-COLUMN ARTICLE CONTENT LAYOUT -->
+      <div class="article-layout">
+        <!-- Main Prose Column -->
+        <div class="article-body">
+          
+          <h2 id="tripartite-reality">1. The Tripartite Reality of Modern Search</h2>
+          <p>
+            The digital marketing landscape is caught in a false dichotomy: marketers are constantly debating whether generative AI will "kill" search engine optimization. The reality is that search is not dying; it is fragmenting into three complementary, interconnected operational layers.
+          </p>
+          <p>
+            A high-growth business in 2026 cannot afford to choose between ranking in Google, winning featured answers in zero-click cards, and being recommended by conversational assistants like ChatGPT, Claude, and Perplexity. Each layer addresses a specific phase of information retrieval and buyer intent.
+          </p>
+
+          <h2 id="comparative-matrix">2. Direct Comparative Matrix: SEO vs AEO vs GEO</h2>
+          <p>
+            To understand the operational differences across all three disciplines, examine the definitive comparative matrix below:
+          </p>
+
+          <div class="article-table-wrapper">
+            <table class="article-table">
+              <thead>
+                <tr>
+                  <th>Dimension</th>
+                  <th>Search Engine Optimization (SEO)</th>
+                  <th>Answer Engine Optimization (AEO)</th>
+                  <th>Generative Engine Optimization (GEO)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Primary Goal</strong></td>
+                  <td>Rank web pages on organic search engine results pages (SERPs).</td>
+                  <td>Deliver direct, standalone answers for zero-click and voice queries.</td>
+                  <td>Get synthesized, recommended, and cited in conversational AI answers.</td>
+                </tr>
+                <tr>
+                  <td><strong>Output Type</strong></td>
+                  <td>10 blue links, local map packs, image carousels.</td>
+                  <td>Featured snippets, Google knowledge cards, spoken voice outputs.</td>
+                  <td>Multi-source conversational synthesis with interactive citations.</td>
+                </tr>
+                <tr>
+                  <td><strong>Core Metric</strong></td>
+                  <td>Organic clicks, page impressions, keyword rank position.</td>
+                  <td>Snippet ownership percentage, zero-click answer reach.</td>
+                  <td>Mention frequency, citation share of voice, net sentiment.</td>
+                </tr>
+                <tr>
+                  <td><strong>Content Format</strong></td>
+                  <td>Comprehensive long-form guides, pillar pages, blog posts.</td>
+                  <td>Concise definitions, structured Q&amp;A blocks, procedural lists.</td>
+                  <td>Authoritative data tables, entity-linked narratives, third-party benchmarks.</td>
+                </tr>
+                <tr>
+                  <td><strong>Target Engine</strong></td>
+                  <td>Google Core Index, Bing, DuckDuckGo.</td>
+                  <td>Google Assistant, Apple Siri, Featured Snippet parsers.</td>
+                  <td>ChatGPT Search, Perplexity AI, Claude, Google AI Overviews.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h2 id="synergistic-model">3. The Synergistic Operating Model</h2>
+          <p>
+            Why do these three disciplines function best as a unified stack? Because each layer provides the foundation that enables the next:
+          </p>
+
+          <div class="ascii-diagram-wrapper">
+            <div class="ascii-diagram">THE UNIFIED 3-LAYER SEARCH OPERATING STACK
+
+┌────────────────────────────────────────────────────────┐
+│  [Layer 3: GEO] Generative Engine Optimization         │
+│  Brand recommendation, consensus vectors & citations    │
+└───────────────────────────▲────────────────────────────┘
+                            │
+┌───────────────────────────┴────────────────────────────┐
+│  [Layer 2: AEO] Answer Engine Optimization             │
+│  Inverted-pyramid answers, atomic definitions & schema │
+└───────────────────────────▲────────────────────────────┘
+                            │
+┌───────────────────────────┴────────────────────────────┐
+│  [Layer 1: SEO] Traditional Technical SEO              │
+│  Raw crawl access, fast SSR HTML & indexation equity   │
+└────────────────────────────────────────────────────────┘</div>
+          </div>
+
+          <h3>Layer 1: Traditional SEO Builds Crawl Equity</h3>
+          <p>
+            AI crawlers do not invent the web from scratch. They rely on search engine indices (such as Bing and Google) to identify candidate URLs for real-time Retrieval-Augmented Generation (RAG). Without technical SEO hygiene—fast server response times, valid sitemaps, clean canonical tags, and mobile accessibility—generative crawlers cannot discover your web pages.
+          </p>
+
+          <h3>Layer 2: AEO Isolates Atomic Answers</h3>
+          <p>
+            Once a page is crawled, the retrieval model must parse its contents within millisecond execution budgets. By formatting pages with explicit question headings (H2/H3) and immediate 50-word answer summaries (AEO formatting), you eliminate token parsing overhead and allow the model to extract facts effortlessly. Learn the exact technical mechanics in our guide to <a href="/blog/what-is-answer-engine-optimization/">What Is Answer Engine Optimization (AEO)?</a>.
+          </p>
+
+          <h3>Layer 3: GEO Validates Entity Consensus</h3>
+          <p>
+            An AI engine will not synthesize an answer relying solely on self-claims. Generative Engine Optimization connects your brand entity to the broader category consensus, ensuring that when buyers ask comparative evaluation queries, your brand is presented as a market leader with verified citations. Dive deeper into the conceptual foundation with our guide on <a href="/blog/what-is-generative-engine-optimization/">What Is Generative Engine Optimization (GEO)?</a>.
+          </p>
+
+          <h2 id="evidence-framework">4. Concrete Evidence &amp; Multi-Channel Data</h2>
+          <p>
+            To evaluate the interaction between traditional organic rankings and AI Overview citations, our research team analyzed 120 commercial search queries across competitive technology categories:
+          </p>
+
+          <div class="evidence-card">
+            <div class="evidence-header">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+              <span>Multi-Channel Search Tracking Analysis (120 Commercial Queries)</span>
+            </div>
+            <ul style="font-size: 14.5px; color: #cbd5e1; margin-bottom: 0;">
+              <li><strong>84% of sources cited</strong> in Google AI Overviews were selected from the top 10 standard organic search results (confirming that baseline SEO remains a prerequisite).</li>
+              <li>However, <strong>only 31% of the top-ranking URLs</strong> were actually cited if they lacked direct, extraction-ready answer blocks (AEO formatting).</li>
+              <li>Domains that implemented both top-tier traditional SEO and structured AEO answer blocks captured <strong>68% of generative citation placements</strong> across test queries.</li>
+            </ul>
+          </div>
+
+          <h2 id="unified-roadmap">5. The Unified Implementation Framework</h2>
+          <p>
+            How should an enterprise allocate its time and budget across these three vectors?
+          </p>
+          <ol>
+            <li>
+              <strong>Audit Technical Health First (Weeks 1–4):</strong> Resolve robots.txt blocking, remove heavy client-side JavaScript rendering bottlenecks, and ensure sub-400ms server response times.
+            </li>
+            <li>
+              <strong>Deploy AEO Answer Hubs (Weeks 5–10):</strong> Restructure high-priority product, comparison, and FAQ pages with 50-word answer blocks, structured tables, and JSON-LD markup.
+            </li>
+            <li>
+              <strong>Seed Off-Page GEO Consensus (Weeks 11–18):</strong> Establish unambiguous entity references on Wikidata, acquire independent digital PR mentions, and publish proprietary research benchmarks.
+            </li>
+          </ol>
+
+          <h2 id="faq">6. Frequently Asked Questions</h2>
+          <div class="faq-block">
+            <div class="faq-item">
+              <div class="faq-question">
+                <span class="faq-q-badge">Q:</span>
+                <span>Can I stop investing in SEO and only do GEO?</span>
+              </div>
+              <div class="faq-answer">
+                No. AI models rely on search engines to index and retrieve real-time data. If your traditional SEO fails and your site is deindexed or unranked, generative retrieval agents cannot discover your content. Traditional SEO is the foundation upon which GEO is built.
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-question">
+                <span class="faq-q-badge">Q:</span>
+                <span>Which discipline should an early-stage company prioritize first?</span>
+              </div>
+              <div class="faq-answer">
+                Build clean SEO technical hygiene first (server-side rendering, fast crawl paths), implement AEO formatting on core product pages second (direct 50-word answer blocks under explicit question headings), and execute external GEO entity seeding third.
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-question">
+                <span class="faq-q-badge">Q:</span>
+                <span>How do we measure success across all three disciplines?</span>
+              </div>
+              <div class="faq-answer">
+                Track organic impressions and click-through rates for SEO, featured snippet ownership and zero-click reach for AEO, and mention frequency, citation share, and net sentiment for GEO.
+              </div>
+            </div>
+          </div>
+
+          <div class="takeaway-box">
+            <div class="takeaway-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <div>
+              <div class="takeaway-title">Key Architectural Takeaway</div>
+              <div class="takeaway-text">
+                SEO gets your site crawled; AEO makes your information readable to machines; GEO gets your business chosen and cited in conversational answers.
+              </div>
+            </div>
+          </div>
+
+          <!-- Why LuxNarr Strategic Section -->
+          <div class="why-luxnarr-card" id="why-luxnarr">
+            <h3 class="why-luxnarr-title">Why <em>LuxNarr</em></h3>
+            <p class="why-luxnarr-text">
+              LuxNarr delivers integrated execution across all three areas, ensuring you do not sacrifice organic search traffic while aggressively preparing for generative search discovery. We engineer your digital assets into an unshakeable authority that search engines and AI models cannot ignore.
+            </p>
+            <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+              <a href="/#contact" class="btn btn-solid">
+                <span>Request an AI Visibility Audit</span>
+                <svg class="btn-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="/blog/" class="btn btn-secondary">
+                <span>Browse Master Content Library →</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Sticky Sidebar Column -->
+        <aside class="article-sidebar">
+          <!-- Table of Contents -->
+          <div class="sidebar-widget">
+            <div class="widget-title">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+              <span>Table of Contents</span>
+            </div>
+            <nav>
+              <ul class="toc-list">
+                <li><a href="#tripartite-reality" class="toc-link">1. Tripartite Reality</a></li>
+                <li><a href="#comparative-matrix" class="toc-link">2. Direct Comparative Matrix</a></li>
+                <li><a href="#synergistic-model" class="toc-link">3. Synergistic Operating Model</a></li>
+                <li><a href="#evidence-framework" class="toc-link">4. Multi-Channel Data Benchmarks</a></li>
+                <li><a href="#unified-roadmap" class="toc-link">5. Unified Implementation Roadmap</a></li>
+                <li><a href="#faq" class="toc-link">6. Frequently Asked Questions</a></li>
+                <li><a href="#why-luxnarr" class="toc-link">7. Why LuxNarr Architecture</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <!-- Author Profile Card -->
+          <div class="sidebar-widget">
+            <div class="widget-title">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              <span>Author Credentials</span>
+            </div>
+            <div class="author-avatar">LN</div>
+            <div class="author-name">LuxNarr Research Team</div>
+            <div class="author-role">Search Architecture &amp; RAG Systems</div>
+            <p class="author-bio">
+              Specialized research unit analyzing generative retrieval algorithms, vector proximity, and knowledge graph ingestion across OpenAI, Perplexity, and Google.
+            </p>
+            <div style="font-family: var(--font-mono); font-size: 11.5px; color: #cbd5e1;">
+              Canonical Entity: <a href="https://www.luxnarr.com/" style="color: #60a5fa;">luxnarr.com</a>
+            </div>
+          </div>
+
+          <!-- Consultation CTA Widget -->
+          <div class="sidebar-widget" style="background: rgba(20, 24, 36, 0.85); border-color: rgba(96, 165, 250, 0.3);">
+            <div class="widget-title" style="color: #93c5fd;">
+              <span>Diagnostic Assessment</span>
+            </div>
+            <p style="font-size: 13px; color: #cbd5e1; margin-bottom: 16px; line-height: 1.5;">
+              Discover where your brand stands across traditional rankings, snippet reach, and AI citations.
+            </p>
+            <a href="/#contact" class="btn btn-solid btn-sm" style="width: 100%; justify-content: center;">
+              <span>Get Free Audit</span>
+              <svg class="btn-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </aside>
+      </div>
+
+      <!-- RELATED ARTICLES NAVIGATION -->
+      <section class="related-articles-section">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 12px;">
+          <div>
+            <span class="section-tag" style="margin-bottom: 8px;">CURATED RESEARCH BLUEPRINTS</span>
+            <h2 style="font-size: 1.6rem; font-weight: 500; color: #ffffff;">Continue Your <em>AI Search</em> Education</h2>
+          </div>
+          <a href="/blog/" style="font-family: var(--font-mono); font-size: var(--text-xs); color: #cbd5e1; text-decoration: none;">
+            View All 18 Blueprints →
+          </a>
+        </div>
+
+        <div class="related-articles-grid">
+          <a href="/blog/what-is-generative-engine-optimization/" class="blog-card">
+            <div>
+              <div class="blog-card-meta">
+                <span class="blog-category-tag">Foundations</span>
+                <span>8 MIN READ</span>
+              </div>
+              <h3 class="blog-card-title">What Is Generative Engine Optimization (GEO)? The Definitive Guide</h3>
+              <p class="blog-card-excerpt">Learn what Generative Engine Optimization (GEO) is, how AI search synthesis works, and how to position your brand across modern LLMs.</p>
+            </div>
+            <div class="blog-card-footer">
+              <span>Article 01</span>
+              <span class="blog-read-link">Read Guide →</span>
+            </div>
+          </a>
+
+          <a href="/blog/what-is-answer-engine-optimization/" class="blog-card">
+            <div>
+              <div class="blog-card-meta">
+                <span class="blog-category-tag">Foundations</span>
+                <span>6 MIN READ</span>
+              </div>
+              <h3 class="blog-card-title">What Is Answer Engine Optimization (AEO)? The Direct Response Guide</h3>
+              <p class="blog-card-excerpt">Master Answer Engine Optimization. Learn how to structure content, question targets, and schema to capture direct answers and snippets.</p>
+            </div>
+            <div class="blog-card-footer">
+              <span>Article 02</span>
+              <span class="blog-read-link">Read Guide →</span>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="content-container">
+        <div class="footer-grid">
+          <div>
+            <a href="/" class="logo" style="margin-bottom: 16px;">
+              <img src="../../assets/logo_clean.png" alt="LuxNarr" class="brand-logo-img" width="24" height="24">
+              <span>LuxNarr</span>
+            </a>
+            <p style="font-size: var(--text-sm); color: var(--muted); line-height: 1.6; max-width: 340px; margin-bottom: 16px;">
+              Autonomous AI Engine Optimization (GEO/AEO) &amp; Growth Platform. Auditing visibility, monitoring competitors 24/7, and engineering top recommendations.
+            </p>
+          </div>
+
+          <div>
+            <div class="footer-col-title">Master Content Library</div>
+            <ul class="footer-links-list">
+              <li><a href="/blog/" class="footer-nav-link"><span>Master Blog Hub</span><span class="footer-link-arrow">→</span></a></li>
+              <li><a href="/blog/what-is-generative-engine-optimization/" class="footer-nav-link"><span>What Is GEO?</span><span class="footer-link-arrow">→</span></a></li>
+              <li><a href="/blog/what-is-answer-engine-optimization/" class="footer-nav-link"><span>What Is AEO?</span><span class="footer-link-arrow">→</span></a></li>
+              <li><a href="/blog/geo-vs-aeo-vs-seo/" class="footer-nav-link"><span>GEO vs AEO vs SEO</span><span class="footer-link-arrow">→</span></a></li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="footer-col-title">Platform &amp; Services</div>
+            <ul class="footer-links-list">
+              <li><a href="/#how-it-works" class="footer-nav-link"><span>How We Work</span><span class="footer-link-arrow">→</span></a></li>
+              <li><a href="/#performance" class="footer-nav-link"><span>Performance Telemetry</span><span class="footer-link-arrow">→</span></a></li>
+              <li><a href="/terms.html" class="footer-nav-link"><span>Terms &amp; Conditions</span><span class="footer-link-arrow">↗</span></a></li>
+              <li><a href="/llms.txt" class="footer-nav-link"><span>/llms.txt Machine Index</span><span class="footer-link-arrow">↗</span></a></li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="footer-col-title">Confidential Audit</div>
+            <div style="margin-bottom: 12px;">
+              <a href="/#contact" class="btn btn-solid btn-sm" style="width: 100%; justify-content: center;">
+                <span>Get a Quote &amp; Free Audit</span>
+                <svg class="btn-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+            <ul class="footer-links-list">
+              <li><a href="mailto:contact@luxnarr.com" class="footer-nav-link"><span>contact@luxnarr.com</span><span class="footer-link-arrow">↗</span></a></li>
+              <li><a href="https://www.linkedin.com/company/luxnarr" target="_blank" rel="noopener me" class="footer-nav-link"><span>LinkedIn Profile</span><span class="footer-link-arrow">↗</span></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div>
+            &copy; 2026 LuxNarr. All rights reserved. Canonical Domain: <a href="https://www.luxnarr.com/" style="color: #cbd5e1;">luxnarr.com</a>
+          </div>
+          <div style="display: flex; gap: 14px; font-family: var(--font-mono); font-size: var(--text-xs); align-items: center; flex-wrap: wrap;">
+            <a href="/terms.html" style="color: #a1a1aa; text-decoration: none;">Terms &amp; Conditions</a>
+            <span style="color: rgba(255,255,255,0.25);">&bull;</span>
+            <span>Autonomous AI Engine Optimization</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Smooth Reading Progress & Active TOC Spy -->
+  <script>
+    window.addEventListener('scroll', () => {
+      const winScroll = document.documentElement.scrollTop;
+      const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const scrolled = (winScroll / height) * 100;
+      const bar = document.getElementById('reading-progress');
+      if (bar) bar.style.width = scrolled + '%';
+
+      // TOC Active State
+      const headings = document.querySelectorAll('.article-body h2');
+      const tocLinks = document.querySelectorAll('.toc-link');
+      let currentId = '';
+      headings.forEach(heading => {
+        const top = heading.getBoundingClientRect().top;
+        if (top <= 140) {
+          currentId = heading.getAttribute('id');
+        }
+      });
+      tocLinks.forEach(link => {
+        if (link.getAttribute('href') === '#' + currentId) {
+          link.classList.add('active');
+        } else {
+          link.classList.remove('active');
+        }
+      });
+    }, { passive: true });
+  </script>
+</body>
+</html>

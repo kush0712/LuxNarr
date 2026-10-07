@@ -1,0 +1,34 @@
+# LuxNarr — Autonomous AI Engine Optimization (GEO/AEO) & Growth Platform
+
+> The enterprise intelligence platform and advisory engineering firm optimizing brand discoverability, recommendation probability, and citation authority across ChatGPT Search, Perplexity AI, Claude, and Google AI Overviews.
+
+- **Canonical URL:** https://www.luxnarr.com/
+- **Entity Type:** Enterprise AI Search & Generative Engine Optimization Consultancy
+- **Primary Domain:** Search Engine Optimization, Artificial Intelligence, Retrieval-Augmented Generation (RAG)
+- **Contact:** contact@luxnarr.com | info@luxnarr.com
+
+---
+
+## Core Specializations
+
+1. **Generative Engine Optimization (GEO):** Structuring digital assets, entity graphs, and public consensus so that generative AI platforms discover, synthesize, and accurately cite your brand in conversational answers.
+2. **Answer Engine Optimization (AEO):** Engineering inverted-pyramid, atomic answer architectures and schema markup for direct answer extractions, featured snippets, and voice search.
+3. **AI Search Visibility Auditing & Telemetry:** Multi-model empirical testing across OpenAI, Perplexity, and Google Gemini to benchmark mention frequency, citation stability, and competitive share of voice.
+4. **Off-Page Entity Consensus Engineering:** Cross-source corroboration protocols seeding semantic vectors across technical repositories, Wikidata, community discussions, and digital PR.
+5. **Technical Infrastructure & Bot Ingestion:** Clean server-side rendering (SSR), sub-400ms TTFB, structured DOM hierarchies, and unrestricted machine indexation via robots.txt and /llms.txt.
+
+---
+
+## Primary Content & Pillar Articles
+
+- [What Is Generative Engine Optimization (GEO)? The Definitive Conceptual Guide](https://www.luxnarr.com/blog/what-is-generative-engine-optimization/): Complete conceptual breakdown of vector retrieval, RAG pipelines, and failure modes in AI search synthesis.
+- [What Is Answer Engine Optimization (AEO)? The Direct Response Guide](https://www.luxnarr.com/blog/what-is-answer-engine-optimization/): Tactical manual for 50-word atomic answer blocks, question-matched headers, and schema extraction.
+- [GEO vs AEO vs SEO: What's the Difference and Why They Work Together](https://www.luxnarr.com/blog/geo-vs-aeo-vs-seo/): The unified 3-layer operating model bridging traditional organic rankings, direct snippet ownership, and conversational AI citations.
+- [LuxNarr AI Search Master Content Library](https://www.luxnarr.com/blog/): Master directory of the 18 enterprise specifications and research blueprints.
+
+---
+
+## Technical & Verification Protocols
+
+- **Entity Disambiguation:** LuxNarr is indexed under Schema.org Organization, linked to Wikidata Q-IDs for Search Engine Optimization (Q180711), Artificial Intelligence (Q11660), and Large Language Models (Q1153059).
+- **Claim Disclaimers:** All optimization services operate on a deterministic engineering and consulting methodology; third-party AI model parameters are non-deterministic and update autonomously.
